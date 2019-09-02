@@ -5,11 +5,11 @@
 // The outer scope can be a parent function, or the top level of the script.
 function animal(genus){
   const spec='canine'
-  const breed = 'great dane'
+  const bread = 'great dane'
   console.log(`species start with a genus ${spec}`);
    
   function breed(dogBreed) {
-    console.log(`from a genus they move into ${breed}`);
+    console.log(`from a genus they move into ${bread}`);
 
     function group (dogGroup) {
       console.log(`species groups offer small distinctons from the whole `)
