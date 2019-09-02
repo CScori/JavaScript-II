@@ -3,7 +3,22 @@
 // Keep it simple! Remember a closure is just a function
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
+function animal(genus){
+  const spec='canine'
+  const breed = 'great dane'
+  console.log(`species start with a genus ${spec}`);
+   
+  function breed(dogBreed) {
+    console.log(`from a genus they move into ${breed}`);
 
+    function group (dogGroup) {
+      console.log(`species groups offer small distinctons from the whole `)
+    }
+    group('Working')
+  }
+  breed('Great Dane')
+}
+animal('canine')
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
